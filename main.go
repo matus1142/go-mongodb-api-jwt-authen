@@ -228,5 +228,5 @@ func main() {
 	protected.PUT("/book/update", UpdateBookData)
 	protected.DELETE("/book/delete", DeleteBookId)
 
-	r.Run(":3000") // listen and serve on 0.0.0.0:3000 (for windows "localhost:8080")
+	r.Run(":3000") // listen and serve on 0.0.0.0:3000 (for windows "localhost:3000")
 }
